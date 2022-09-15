@@ -1,0 +1,25 @@
+
+*{text-align: center}
+
+img {max-block-size:100%;}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+  }
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  a.button {
+    background-color: ivory;
+    color:cornflowerblue;
+    
+}
