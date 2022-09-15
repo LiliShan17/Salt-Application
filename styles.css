@@ -1,25 +1,97 @@
-
 *{text-align: center}
 
 img {max-block-size:100%;}
 
+h1,h2,h3{
+    font-size: 30px;
+    font-family: "baskerville";
+    padding: 10px;
+    border-radius: 20px;
+  }
+  h1 {background: #66ccff;
+      color:#000099}
+  h2 {background: #c2ebff;
+      color:#005cd6}
+h3{background: #e0f5ff;
+    color:#0099ff
+    }
+
+p, li {font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;}
+
 .flex-container {
     display: flex;
     justify-content: center;
-    background-color: darkslategrey;
+    background-color: snow;
   }
   
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: snow;
     display: inline-block;
     margin: 10px;
-    text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
 
-  a.button {
-    background-color: ivory;
-    color:cornflowerblue;
-    
-}
+button {
+    background-color: #c2ebff;
+    color: #005cd6;
+    border: 2px #c2ebff;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 40%;
+  }
+  button:hover {
+    background-color: white;
+    color: #000099
+    }
+
+a {font-family: 'Times New Roman', Times, serif;
+    font-size: larger;}
+
+a:link {
+        text-decoration: none;
+      }
+      
+a:visited {
+        text-decoration: none;
+      }
+      
+a:hover {
+        text-decoration: none;
+      }
+      
+a:active {
+        text-decoration: none;
+      }
+.hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        color: 
+      #0087ca;
+      }
+.hover-underline-animation:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: 
+      #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+.hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
