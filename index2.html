@@ -8,6 +8,36 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html"="#home">Home</a>
+        <a href="index2.html">/Salt & Helena</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">About Me
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="http://www.mariachi.se">Fiesta Mexico</a>
+            <a href="https://www.instagram.com/helenamlsf/?hl=en">Instagram</a>
+            <a href="https://github.com/LiliShan17">Github</a>
+            <a href="index3.html">Gymnastics Videos</a>
+          </div>
+          </div> 
+        </div>
+  
+
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+        </script>
 <h3>Why /Salt and I will jive</h3>
 <p>
     <li>I love coding</li>
