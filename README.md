@@ -1,2 +1,2 @@
-# Salt-Application
-A small website for Salt to have a look at in my application process.
+# Sandvik-Application
+A small website for Sandvik to have a look at in my application process.
